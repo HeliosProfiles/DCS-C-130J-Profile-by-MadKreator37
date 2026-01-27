@@ -1,2 +1,2 @@
 # Helios Profile for C-130J by MadKreator37
-This is a profile for Helios Virtual Cockpit to support the C-130J.
+This is a profile for Helios Virtual Cockpit to support the C-130J by Airplane Simulation Company for DCS World.
