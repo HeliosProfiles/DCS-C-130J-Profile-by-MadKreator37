@@ -17,7 +17,7 @@ This profile utilises an updated set of JSON interfaces which have been contribu
 
 ### ABOUT
 
-### Minimum Helios version required: 1.6.6170.2
+### Minimum Helios version required: 1.6.6170.3
 
 
 
@@ -26,6 +26,8 @@ This profile was designed and created by myself, in close collaboration with Blu
 *NOTE*: The added functions:  F-keys Esc, Rearm, Briefing, kneeboard etc buttons require the default DCS keybindings for them to work properly. If you have altered any of these then some functions may not work as intended.
 
 ### Very special thanks to @BlueFinBima for all of his contributions including the massive, in-depth interface, custom made controls, toolbox items, repository help, endless hours of coding and more! If you like the profile, make sure to thank him as I would not have been able to do this without his tireless effort and expertise!
+
+#### Also thank you to the ASC devs for humoring us and adding native viewports and considering other change requests. The Helios community appreciates you!
 
 
 ### IMAGES
@@ -46,13 +48,16 @@ or
 MadKreator37  https://discord.gg/ZCmReWUErQ
 
 ### Known Issues
-Using this profile will break MP IC. However, since most all viewports are native to the module you can disable the C-130 patches in Helios Editor- DCS Additional Viewports- Details(Advanced) to make it IC compliant.
-By doing so you will lose the following displays:
+
+1: Using this profile will break MP IC. However, since most all viewports are native to the module you can disable the C-130 patches in Helios Editor- DCS Additional Viewports- Details(Advanced) to make it IC compliant.
+   By doing so you will lose the following displays:
 - All 9 "Fuel Set Quantity" displays.. ( Not the actual fuel in the tanks though)
 - The Air Conditioning temp displays
 - Battery Voltage Display
 - Differential Pressure Display
 - And it will disable the exportable Arc-210 Viewport
+
+2: Magnetic Compass reads incorrectly. Should fix itself when ASC releases ther fiz for it.
 
 
 ### Notes
