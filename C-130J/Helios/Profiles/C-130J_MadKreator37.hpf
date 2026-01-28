@@ -14941,6 +14941,11 @@ end</LuaScript>
       <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Panel.Annunciator Panel.Metronome;Helios.Special.Metronome;Metronome" Name="Metronome Tick" />
+      <Action Target="Visual;Monitor 1.Pilot Panel.Annunciator Panel.TextDisplay;Helios.Base.TextDisplay;TextDisplay" Name="set.TextDisplay" />
+      <StaticValue> </StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.Pilot Panel.Pilot Ref Panel.alt;Helios.Base.PushButton;alt" Name="closed" />
       <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="AFCS.push.Pilot ALT Mode Switch" />
       <StaticValue />
