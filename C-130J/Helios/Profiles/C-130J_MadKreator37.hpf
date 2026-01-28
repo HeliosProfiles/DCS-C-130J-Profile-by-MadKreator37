@@ -946,22 +946,13 @@
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.CalibrationFilter" Name="Calibration Filter" SnapTarget="False" Locked="False">
-                  <Location>12,274</Location>
-                  <Size>22,26</Size>
+                <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome" SnapTarget="False" Locked="False">
+                  <Location>12,280</Location>
+                  <Size>20,20</Size>
                   <Hidden>False</Hidden>
                   <EffectsExclusion>True</EffectsExclusion>
-                  <PointCount>2</PointCount>
-                  <CalibrationPoints>
-                    <Point>
-                      <Input>0</Input>
-                      <Output>0</Output>
-                    </Point>
-                    <Point>
-                      <Input>1</Input>
-                      <Output>1</Output>
-                    </Point>
-                  </CalibrationPoints>
+                  <MetronomeEnabled>False</MetronomeEnabled>
+                  <TickInterval>5</TickInterval>
                   <Children />
                 </Control>
                 <Control TypeIdentifier="Helios.Base.TextDisplay" Name="TextDisplay" SnapTarget="True" Locked="False">
@@ -14845,8 +14836,19 @@
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.Ramp Position.changed" />
-      <Action Target="Visual;Monitor 1.Pilot Panel.Annunciator Panel.Calibration Filter;Helios.Base.CalibrationFilter;Calibration Filter" Name="Input.set.Value" />
-      <TriggerValue />
+      <Action Target="Visual;Monitor 1.Pilot Panel.Annunciator Panel.TextDisplay;Helios.Base.TextDisplay;TextDisplay" Name="set.TextDisplay" />
+      <LuaScript>if TriggerValue == 0 then
+ return "Closed"
+elseif TriggerValue &gt; 0 and TriggerValue &lt; 0.99 then
+ return string.format(" %02.0f%%",TriggerValue*100) 
+else 
+  return "OPEN"
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.Ramp Position.changed" />
+      <Action Target="Visual;Monitor 1.Pilot Panel.Annunciator Panel.Metronome;Helios.Special.Metronome;Metronome" Name="Metronome.set.Enable" />
+      <LuaScript>return TriggerValue==0</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.Pilot Panel.Gear Panel.landing light sw L;Helios.Base.ThreeWayToggleSwitch;landing light sw L" Name="position.changed" />
@@ -14934,15 +14936,9 @@
       <StaticValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Pilot Panel.Annunciator Panel.Calibration Filter;Helios.Base.CalibrationFilter;Calibration Filter" Name="Output.Value.changed" />
-      <Action Target="Visual;Monitor 1.Pilot Panel.Annunciator Panel.TextDisplay;Helios.Base.TextDisplay;TextDisplay" Name="set.TextDisplay" />
-      <LuaScript>if TriggerValue == 0 then
- return "Closed"
-elseif TriggerValue &gt; 0 and TriggerValue &lt; 0.99 then
- return string.format(" %02.0f%%",TriggerValue*100) 
-else 
-  return "OPEN"
-end</LuaScript>
+      <Trigger Source="Visual;Monitor 1.Pilot Panel.Annunciator Panel.Metronome;Helios.Special.Metronome;Metronome" Name="Metronome Tick" />
+      <Action Target="Visual;Monitor 1.Pilot Panel.Annunciator Panel.Metronome;Helios.Special.Metronome;Metronome" Name="Metronome.set.Enable" />
+      <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.Pilot Panel.Pilot Ref Panel.alt;Helios.Base.PushButton;alt" Name="closed" />
