@@ -10,7 +10,7 @@
       <AlwaysOnTop>True</AlwaysOnTop>
       <Background />
       <Children>
-        <Control TypeIdentifier="Helios.Base.Image" Name="sky" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="sky" SnapTarget="False" Locked="True">
           <Image>MadKreator37\C130J\mountain_day.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -19,7 +19,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ViewportExtent" Name="CENTER_MFCD" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.ViewportExtent" Name="CENTER_MFCD" SnapTarget="True" Locked="True">
           <FillBackground>True</FillBackground>
           <BackgroundColor>#80DB2929</BackgroundColor>
           <FontColor>#FFFFFFFF</FontColor>
@@ -46,7 +46,7 @@
           <ViewportName>CENTER_MFCD</ViewportName>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ViewportExtent" Name="LEFT_MFCD" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.ViewportExtent" Name="LEFT_MFCD" SnapTarget="True" Locked="True">
           <FillBackground>True</FillBackground>
           <BackgroundColor>#80DB2929</BackgroundColor>
           <FontColor>#FFFFFFFF</FontColor>
@@ -73,7 +73,7 @@
           <ViewportName>LEFT_MFCD</ViewportName>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ViewportExtent" Name="RIGHT_MFCD" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.ViewportExtent" Name="RIGHT_MFCD" SnapTarget="True" Locked="True">
           <FillBackground>True</FillBackground>
           <BackgroundColor>#80DB2929</BackgroundColor>
           <FontColor>#FFFFFFFF</FontColor>
@@ -100,7 +100,7 @@
           <ViewportName>RIGHT_MFCD</ViewportName>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Pilot Panel" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Panel" Name="Pilot Panel" SnapTarget="True" Locked="True">
           <Location>0,0</Location>
           <Size>1920,1080</Size>
           <Hidden>False</Hidden>
@@ -11004,7 +11004,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel.Timer" Name="Splash Screen" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Panel.Timer" Name="Splash Screen" SnapTarget="True" Locked="True">
           <Location>1446,20</Location>
           <Size>320,212</Size>
           <Hidden>False</Hidden>
