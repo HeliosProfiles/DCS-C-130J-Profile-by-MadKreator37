@@ -10,8 +10,8 @@ This profile has been created by @MadKreator37 and @BlueFinBima. It is maintaine
 
 The latest version of this profile can be found [here](https://github.com/HeliosProfiles/DCS-C-130J-Profile-by-MadKreator37/releases/latest)
 
-This is a profile for Helios Virtual Cockpit software, for use with DCS World
-This profile utilises an updated set of JSON interfaces which have been contributed to was written into the Helios Virtual Cockpit project.  This can be downloaded from [Helios latest release](https://github.com/HeliosVirtualCockpit/Helios/releases/latest)
+This is a profile for Helios Virtual Cockpit software, for use with DCS World.
+This profile utilises an updated set of JSON interfaces which have been contributed to and written into the Helios Virtual Cockpit project.  This can be downloaded from [Helios latest release](https://github.com/HeliosVirtualCockpit/Helios/releases/latest)
 
 **Remember to always make a back up of files before making changes**
 
