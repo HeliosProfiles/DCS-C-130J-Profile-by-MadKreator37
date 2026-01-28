@@ -57,7 +57,7 @@ MadKreator37  https://discord.gg/ZCmReWUErQ
 - Differential Pressure Display
 - And it will disable the exportable Arc-210 Viewport
 
-2: Magnetic Compass reads incorrectly. Should fix itself when ASC releases ther fiz for it.
+2: Magnetic Compass reads incorrectly. Should fix itself when ASC releases ther fix for it.
 
 
 ### Notes
