@@ -29,6 +29,9 @@ This profile was designed and created by myself, in close collaboration with Blu
 
 #### Also thank you to the ASC devs for humoring us and adding native viewports and considering other change requests. The Helios community appreciates you!
 
+### Changelog
+1.0.1: 
+- Adjustments to "Ramp Panel" and CNI Interaction
 
 ### IMAGES
 <img width="1919" height="1079" alt="Screenshot 2026-01-21 191657" src="https://github.com/user-attachments/assets/766d10b0-5212-4bd3-a8b9-edcc0ac6e684" />
