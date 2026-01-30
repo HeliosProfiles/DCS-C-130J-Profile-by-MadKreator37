@@ -3179,495 +3179,6 @@
                 </Control>
               </Children>
             </Control>
-            <Control TypeIdentifier="Helios.Panel" Name="Ramp Panel" SnapTarget="True" Locked="False">
-              <Location>610,256</Location>
-              <Size>420,692</Size>
-              <Hidden>True</Hidden>
-              <Background>
-                <Color>#E1000000</Color>
-              </Background>
-              <Border>
-                <TopLeftCorner />
-                <TopBorder>{Helios}/Images/Panels/panel-top.png</TopBorder>
-                <TopRightCorner />
-                <RightBorder>{Helios}/Images/Panels/panel-left.png</RightBorder>
-                <BottomRightCorner />
-                <BottomBorder>{Helios}/Images/Panels/panel-top.png</BottomBorder>
-                <BottomLeftCorner />
-                <LeftBorder>{Helios}/Images/Panels/panel-left.png</LeftBorder>
-              </Border>
-              <Interaction>
-                <AllowInteractionFull>False</AllowInteractionFull>
-                <AllowInteractionNone>True</AllowInteractionNone>
-                <AllowInteractionLegacy>False</AllowInteractionLegacy>
-              </Interaction>
-              <Children>
-                <Control TypeIdentifier="Helios.Panel" Name="Aerial Delivery Panel 2" SnapTarget="True" Locked="False">
-                  <Location>13,350</Location>
-                  <Size>392,332</Size>
-                  <Hidden>False</Hidden>
-                  <Background />
-                  <Interaction>
-                    <AllowInteractionFull>False</AllowInteractionFull>
-                    <AllowInteractionNone>True</AllowInteractionNone>
-                    <AllowInteractionLegacy>False</AllowInteractionLegacy>
-                  </Interaction>
-                  <Children>
-                    <Control TypeIdentifier="Helios.Base.Image" Name="Image 4" SnapTarget="False" Locked="True">
-                      <Image>MadKreator37\C130J\Bezels_And_Faces\Aerial_Delivery_Panel.png</Image>
-                      <Alignment>Stretched</Alignment>
-                      <CornerRadius>0</CornerRadius>
-                      <Location>4,5</Location>
-                      <Size>385,324</Size>
-                      <Hidden>False</Hidden>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.PushButton" Name="Push Button" SnapTarget="True" Locked="False">
-                      <Location>146,82</Location>
-                      <Size>45,45</Size>
-                      <Hidden>False</Hidden>
-                      <Type>Momentary</Type>
-                      <Image>MadKreator37\C130J\Buttons_Switches_Knobs\Generic_Blank_Button_Norm.png</Image>
-                      <PushedImage>MadKreator37\C130J\Buttons_Switches_Knobs\Generic_Blank_Button_Pressed.png</PushedImage>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.PushButton" Name="Push Button 1" SnapTarget="True" Locked="False">
-                      <Location>212,82</Location>
-                      <Size>45,45</Size>
-                      <Hidden>False</Hidden>
-                      <Type>Momentary</Type>
-                      <Image>MadKreator37\C130J\Buttons_Switches_Knobs\Generic_Blank_Button_Norm.png</Image>
-                      <PushedImage>MadKreator37\C130J\Buttons_Switches_Knobs\Generic_Blank_Button_Pressed.png</PushedImage>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.Indicator" Name="Green Light 1" SnapTarget="True" Locked="False">
-                      <OnImage>MadKreator37\C130J\Indicators\Cargo _Bay_Caution.png</OnImage>
-                      <OffImage>MadKreator37\C130J\Transparent_Image.png</OffImage>
-                      <Font>
-                        <FontFamily>Franklin Gothic</FontFamily>
-                        <FontStyle>Normal</FontStyle>
-                        <FontWeight>Normal</FontWeight>
-                        <FontSize>7.55555555555556</FontSize>
-                        <HorizontalAlignment>Center</HorizontalAlignment>
-                        <VerticalAlignment>Center</VerticalAlignment>
-                        <Padding>
-                          <Left>0</Left>
-                          <Top>0</Top>
-                          <Right>0</Right>
-                          <Bottom>0</Bottom>
-                        </Padding>
-                      </Font>
-                      <Text />
-                      <OnTextColor>#FFB3A229</OnTextColor>
-                      <OffTextColor>#FF1C1C1C</OffTextColor>
-                      <ScalingMode>Height</ScalingMode>
-                      <Interaction>
-                        <AllowInteraction>True</AllowInteraction>
-                      </Interaction>
-                      <Location>151,87</Location>
-                      <Size>34,34</Size>
-                      <Hidden>False</Hidden>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.Indicator" Name="Green Light 1 1" SnapTarget="True" Locked="False">
-                      <OnImage>MadKreator37\C130J\Indicators\Cargo _Bay_Jump.png</OnImage>
-                      <OffImage>MadKreator37\C130J\Transparent_Image.png</OffImage>
-                      <Font>
-                        <FontFamily>Franklin Gothic</FontFamily>
-                        <FontStyle>Normal</FontStyle>
-                        <FontWeight>Normal</FontWeight>
-                        <FontSize>7.55555555555556</FontSize>
-                        <HorizontalAlignment>Center</HorizontalAlignment>
-                        <VerticalAlignment>Center</VerticalAlignment>
-                        <Padding>
-                          <Left>0</Left>
-                          <Top>0</Top>
-                          <Right>0</Right>
-                          <Bottom>0</Bottom>
-                        </Padding>
-                      </Font>
-                      <Text />
-                      <OnTextColor>#FFB3A229</OnTextColor>
-                      <OffTextColor>#FF1C1C1C</OffTextColor>
-                      <ScalingMode>Height</ScalingMode>
-                      <Interaction>
-                        <AllowInteraction>True</AllowInteraction>
-                      </Interaction>
-                      <Location>217,87</Location>
-                      <Size>34,34</Size>
-                      <Hidden>False</Hidden>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Three Way Toggle Switch" SnapTarget="True" Locked="False">
-                      <Location>75,102</Location>
-                      <Size>34,66</Size>
-                      <Hidden>False</Hidden>
-                      <SwitchType>OnOnOn</SwitchType>
-                      <Orientation>Vertical</Orientation>
-                      <ClickType>Swipe</ClickType>
-                      <PositionOneImage>MadKreator37\C130J\Buttons_Switches_Knobs\Switch_2_Up.png</PositionOneImage>
-                      <PositionTwoImage>MadKreator37\C130J\Buttons_Switches_Knobs\Switch_2_Center.png</PositionTwoImage>
-                      <PositionThreeImage>MadKreator37\C130J\Buttons_Switches_Knobs\Switch_2_Dn.png</PositionThreeImage>
-                      <DefaultPosition>Two</DefaultPosition>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Toggle Switch" SnapTarget="True" Locked="False">
-                      <Location>75,226</Location>
-                      <Size>34,66</Size>
-                      <Hidden>False</Hidden>
-                      <SwitchType>OnOn</SwitchType>
-                      <Orientation>Vertical</Orientation>
-                      <ClickType>Swipe</ClickType>
-                      <PositionOneImage>MadKreator37\C130J\Buttons_Switches_Knobs\Switch_3_Up.png</PositionOneImage>
-                      <PositionTwoImage>MadKreator37\C130J\Buttons_Switches_Knobs\Switch_3_Dn.png</PositionTwoImage>
-                      <DefaultPosition>Two</DefaultPosition>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.PushButton" Name="Tactile Round - Light" SnapTarget="True" Locked="False">
-                      <Location>292,103</Location>
-                      <Size>30,30</Size>
-                      <Hidden>False</Hidden>
-                      <Type>Momentary</Type>
-                      <Image>MadKreator37\C130J\Buttons_Switches_Knobs\Chute_Button_Norm.png</Image>
-                      <PushedImage>MadKreator37\C130J\Buttons_Switches_Knobs\Chute_Button_Pressed.png</PushedImage>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.GuardedSwitch" Name="chute release guard" SnapTarget="True" Locked="False">
-                      <Location>271,71</Location>
-                      <Size>72,91</Size>
-                      <Hidden>False</Hidden>
-                      <SwitchType>OnOn</SwitchType>
-                      <Orientation>Vertical</Orientation>
-                      <ClickType>Swipe</ClickType>
-                      <GuardUp>
-                        <PositionOneImage>MadKreator37\C130J\Buttons_Switches_Knobs\Chute_Release_Cover_Open.png</PositionOneImage>
-                        <PositionTwoImage>MadKreator37\C130J\Buttons_Switches_Knobs\Chute_Release_Cover_Closed.png</PositionTwoImage>
-                      </GuardUp>
-                      <GuardDown>
-                        <PositionOneImage>MadKreator37\C130J\Buttons_Switches_Knobs\Chute_Release_Cover_Open.png</PositionOneImage>
-                        <PositionTwoImage>MadKreator37\C130J\Buttons_Switches_Knobs\Chute_Release_Cover_Closed.png</PositionTwoImage>
-                      </GuardDown>
-                      <DefaultPosition>Two</DefaultPosition>
-                      <DefaultGuardPosition>Down</DefaultGuardPosition>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Three Way Toggle Switch 1" SnapTarget="True" Locked="False">
-                      <Location>157,228</Location>
-                      <Size>34,66</Size>
-                      <Hidden>False</Hidden>
-                      <SwitchType>OnOnOn</SwitchType>
-                      <Orientation>Vertical</Orientation>
-                      <ClickType>Swipe</ClickType>
-                      <PositionOneImage>MadKreator37\C130J\Buttons_Switches_Knobs\Switch_2_Up.png</PositionOneImage>
-                      <PositionTwoImage>MadKreator37\C130J\Buttons_Switches_Knobs\Switch_2_Center.png</PositionTwoImage>
-                      <PositionThreeImage>MadKreator37\C130J\Buttons_Switches_Knobs\Switch_2_Dn.png</PositionThreeImage>
-                      <DefaultPosition>Two</DefaultPosition>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.Image" Name="Image" SnapTarget="False" Locked="False">
-                      <Image>MadKreator37\C130J\Buttons_Switches_Knobs\Orange_Sw_Base.png</Image>
-                      <Alignment>Stretched</Alignment>
-                      <CornerRadius>0</CornerRadius>
-                      <Location>290,247</Location>
-                      <Size>33,33</Size>
-                      <Hidden>False</Hidden>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Toggle Switch 1 1" SnapTarget="True" Locked="False">
-                      <Location>290,229</Location>
-                      <Size>34,66</Size>
-                      <Hidden>False</Hidden>
-                      <SwitchType>OnOn</SwitchType>
-                      <Orientation>Vertical</Orientation>
-                      <ClickType>Swipe</ClickType>
-                      <PositionOneImage>MadKreator37\C130J\Buttons_Switches_Knobs\Switch_1_Up.png</PositionOneImage>
-                      <PositionTwoImage>MadKreator37\C130J\Buttons_Switches_Knobs\Switch_1_Dn.png</PositionTwoImage>
-                      <DefaultPosition>Two</DefaultPosition>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.GuardedSwitch" Name="alarm guard" SnapTarget="True" Locked="False">
-                      <Location>285,183</Location>
-                      <Size>44,119</Size>
-                      <Hidden>False</Hidden>
-                      <SwitchType>OnOn</SwitchType>
-                      <Orientation>Vertical</Orientation>
-                      <ClickType>Swipe</ClickType>
-                      <GuardUp>
-                        <PositionOneImage>MadKreator37\C130J\Buttons_Switches_Knobs\Guard_1_Up.png</PositionOneImage>
-                        <PositionTwoImage>MadKreator37\C130J\Buttons_Switches_Knobs\Guard_1_Dn.png</PositionTwoImage>
-                      </GuardUp>
-                      <GuardDown>
-                        <PositionOneImage>MadKreator37\C130J\Buttons_Switches_Knobs\Guard_1_Up.png</PositionOneImage>
-                        <PositionTwoImage>MadKreator37\C130J\Buttons_Switches_Knobs\Guard_1_Dn.png</PositionTwoImage>
-                      </GuardDown>
-                      <DefaultPosition>Two</DefaultPosition>
-                      <DefaultGuardPosition>Down</DefaultGuardPosition>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome" SnapTarget="False" Locked="False">
-                      <Location>20,65</Location>
-                      <Size>20,20</Size>
-                      <Hidden>False</Hidden>
-                      <EffectsExclusion>True</EffectsExclusion>
-                      <MetronomeEnabled>False</MetronomeEnabled>
-                      <TickInterval>5</TickInterval>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.TextDisplay" Name="TextDisplay 1" SnapTarget="True" Locked="False">
-                      <Font>
-                        <FontFamily>Helios Virtual Cockpit F/A-18C Hornet IFEI</FontFamily>
-                        <FontStyle>Normal</FontStyle>
-                        <FontWeight>Normal</FontWeight>
-                        <FontSize>17.3333333333333</FontSize>
-                        <HorizontalAlignment>Center</HorizontalAlignment>
-                        <VerticalAlignment>Center</VerticalAlignment>
-                        <Padding>
-                          <Left>0</Left>
-                          <Top>0</Top>
-                          <Right>0</Right>
-                          <Bottom>0</Bottom>
-                        </Padding>
-                      </Font>
-                      <OnTextColor>#FF35DC93</OnTextColor>
-                      <BackgroundColor>#FF000000</BackgroundColor>
-                      <TextTest>CLOSED</TextTest>
-                      <ParserDictionary />
-                      <UseBackground>False</UseBackground>
-                      <UseParserDictionary>False</UseParserDictionary>
-                      <ScalingMode>Height</ScalingMode>
-                      <Location>57,52</Location>
-                      <Size>70,26</Size>
-                      <Hidden>False</Hidden>
-                      <Children />
-                    </Control>
-                  </Children>
-                </Control>
-                <Control TypeIdentifier="Helios.Panel" Name="Pressurization Panel2" SnapTarget="True" Locked="False">
-                  <Location>32,10</Location>
-                  <Size>347,340</Size>
-                  <Hidden>False</Hidden>
-                  <Background />
-                  <Interaction>
-                    <AllowInteractionFull>False</AllowInteractionFull>
-                    <AllowInteractionNone>True</AllowInteractionNone>
-                    <AllowInteractionLegacy>False</AllowInteractionLegacy>
-                  </Interaction>
-                  <Children>
-                    <Control TypeIdentifier="Helios.Base.Image" Name="Image 5" SnapTarget="False" Locked="True">
-                      <Image>MadKreator37\C130J\Bezels_And_Faces\Pressurization_Panel.png</Image>
-                      <Alignment>Stretched</Alignment>
-                      <CornerRadius>0</CornerRadius>
-                      <Location>1,1</Location>
-                      <Size>346,337</Size>
-                      <Hidden>False</Hidden>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.Image" Name="Image" SnapTarget="False" Locked="False">
-                      <Image>MadKreator37\C130J\Buttons_Switches_Knobs\Orange_Sw_Base_2.png</Image>
-                      <Alignment>Stretched</Alignment>
-                      <CornerRadius>0</CornerRadius>
-                      <Location>248,157</Location>
-                      <Size>35,30</Size>
-                      <Hidden>False</Hidden>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Toggle Switch 1" SnapTarget="True" Locked="False">
-                      <Location>252,147</Location>
-                      <Size>26,51</Size>
-                      <Hidden>False</Hidden>
-                      <SwitchType>OnOn</SwitchType>
-                      <Orientation>Vertical</Orientation>
-                      <ClickType>Swipe</ClickType>
-                      <PositionOneImage>MadKreator37\C130J\Buttons_Switches_Knobs\Switch_1_Up.png</PositionOneImage>
-                      <PositionTwoImage>MadKreator37\C130J\Buttons_Switches_Knobs\Switch_1_Dn.png</PositionTwoImage>
-                      <DefaultPosition>Two</DefaultPosition>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.GuardedSwitch" Name="Guard Empty" SnapTarget="True" Locked="False">
-                      <Location>243,97</Location>
-                      <Size>42,114</Size>
-                      <Hidden>False</Hidden>
-                      <SwitchType>OnOn</SwitchType>
-                      <Orientation>Vertical</Orientation>
-                      <ClickType>Swipe</ClickType>
-                      <GuardUp>
-                        <PositionOneImage>MadKreator37\C130J\Buttons_Switches_Knobs\Guard_1_Up.png</PositionOneImage>
-                        <PositionTwoImage>MadKreator37\C130J\Buttons_Switches_Knobs\Guard_1_Dn.png</PositionTwoImage>
-                      </GuardUp>
-                      <GuardDown>
-                        <PositionOneImage>MadKreator37\C130J\Buttons_Switches_Knobs\Guard_1_Up.png</PositionOneImage>
-                        <PositionTwoImage>MadKreator37\C130J\Buttons_Switches_Knobs\Guard_1_Dn.png</PositionTwoImage>
-                      </GuardDown>
-                      <DefaultPosition>Two</DefaultPosition>
-                      <DefaultGuardPosition>Down</DefaultGuardPosition>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="Rotary - Knob 1" SnapTarget="True" Locked="False">
-                      <Location>55,239</Location>
-                      <Size>75,75</Size>
-                      <Hidden>False</Hidden>
-                      <KnobImage>MadKreator37\C130J\Buttons_Switches_Knobs\Ref_Select_Knob.png</KnobImage>
-                      <Positions>
-                        <Position Name="0" Rotation="269.67" />
-                        <Position Name="1" Rotation="314.38" />
-                        <Position Name="2" Rotation="0.00" />
-                        <Position Name="3" Rotation="42.54" />
-                        <Position Name="4" Rotation="90.58" />
-                      </Positions>
-                      <DefaultPosition>1</DefaultPosition>
-                      <ClickType>
-                        <Type>Touch</Type>
-                      </ClickType>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Potentiometer" SnapTarget="True" Locked="False">
-                      <Location>136,128</Location>
-                      <Size>85,85</Size>
-                      <Hidden>False</Hidden>
-                      <KnobImage>MadKreator37\C130J\Buttons_Switches_Knobs\Pressure_Knob.png</KnobImage>
-                      <InitialValue>0</InitialValue>
-                      <StepValue>0.03</StepValue>
-                      <MaxValue>1</MaxValue>
-                      <MinValue>0</MinValue>
-                      <InitialRotation>213.791208791209</InitialRotation>
-                      <RotationTravel>286.483516483516</RotationTravel>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="Rotary Encoder" SnapTarget="True" Locked="False">
-                      <Location>203,284</Location>
-                      <Size>47,47</Size>
-                      <Hidden>False</Hidden>
-                      <KnobImage>MadKreator37\C130J\Buttons_Switches_Knobs\Hud_Knob Norm.png</KnobImage>
-                      <RotationStep>5</RotationStep>
-                      <StepValue>0.1</StepValue>
-                      <InitialRotation>0</InitialRotation>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.TextDisplay" Name="TextDisplay" SnapTarget="True" Locked="False">
-                      <Font>
-                        <FontFamily>Helios Virtual Cockpit A-10C_Digital_Clock</FontFamily>
-                        <FontStyle>Normal</FontStyle>
-                        <FontWeight>Normal</FontWeight>
-                        <FontSize>23.2222222222222</FontSize>
-                        <HorizontalAlignment>Center</HorizontalAlignment>
-                        <VerticalAlignment>Center</VerticalAlignment>
-                        <Padding>
-                          <Left>0</Left>
-                          <Top>0</Top>
-                          <Right>0</Right>
-                          <Bottom>0</Bottom>
-                        </Padding>
-                      </Font>
-                      <OnTextColor>#FF40B329</OnTextColor>
-                      <BackgroundColor>#FF000000</BackgroundColor>
-                      <TextTest>0000</TextTest>
-                      <ParserDictionary />
-                      <UseBackground>False</UseBackground>
-                      <UseParserDictionary>False</UseParserDictionary>
-                      <ScalingMode>Height</ScalingMode>
-                      <Location>176,246</Location>
-                      <Size>103,38</Size>
-                      <Hidden>False</Hidden>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.TextDisplay" Name="TextDisplay 1" SnapTarget="True" Locked="False">
-                      <Font>
-                        <FontFamily>Helios Virtual Cockpit A-10C_Digital_Clock</FontFamily>
-                        <FontStyle>Normal</FontStyle>
-                        <FontWeight>Normal</FontWeight>
-                        <FontSize>23.2222222222222</FontSize>
-                        <HorizontalAlignment>Center</HorizontalAlignment>
-                        <VerticalAlignment>Center</VerticalAlignment>
-                        <Padding>
-                          <Left>0</Left>
-                          <Top>0</Top>
-                          <Right>0</Right>
-                          <Bottom>0</Bottom>
-                        </Padding>
-                      </Font>
-                      <OnTextColor>#FF40B329</OnTextColor>
-                      <BackgroundColor>#FF000000</BackgroundColor>
-                      <TextTest>000</TextTest>
-                      <ParserDictionary />
-                      <UseBackground>False</UseBackground>
-                      <UseParserDictionary>False</UseParserDictionary>
-                      <ScalingMode>Height</ScalingMode>
-                      <Location>32,41</Location>
-                      <Size>103,38</Size>
-                      <Hidden>False</Hidden>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.TextDisplay" Name="TextDisplay 1 1" SnapTarget="True" Locked="False">
-                      <Font>
-                        <FontFamily>Helios Virtual Cockpit A-10C_Digital_Clock</FontFamily>
-                        <FontStyle>Normal</FontStyle>
-                        <FontWeight>Normal</FontWeight>
-                        <FontSize>23.2222222222222</FontSize>
-                        <HorizontalAlignment>Center</HorizontalAlignment>
-                        <VerticalAlignment>Center</VerticalAlignment>
-                        <Padding>
-                          <Left>0</Left>
-                          <Top>0</Top>
-                          <Right>0</Right>
-                          <Bottom>0</Bottom>
-                        </Padding>
-                      </Font>
-                      <OnTextColor>#FF40B329</OnTextColor>
-                      <BackgroundColor>#FF000000</BackgroundColor>
-                      <TextTest>000</TextTest>
-                      <ParserDictionary />
-                      <UseBackground>False</UseBackground>
-                      <UseParserDictionary>False</UseParserDictionary>
-                      <ScalingMode>Height</ScalingMode>
-                      <Location>134,41</Location>
-                      <Size>103,38</Size>
-                      <Hidden>False</Hidden>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.TextDisplay" Name="TextDisplay 1 1 1" SnapTarget="True" Locked="False">
-                      <Font>
-                        <FontFamily>Helios Virtual Cockpit A-10C_Digital_Clock</FontFamily>
-                        <FontStyle>Normal</FontStyle>
-                        <FontWeight>Normal</FontWeight>
-                        <FontSize>23.2222222222222</FontSize>
-                        <HorizontalAlignment>Center</HorizontalAlignment>
-                        <VerticalAlignment>Center</VerticalAlignment>
-                        <Padding>
-                          <Left>0</Left>
-                          <Top>0</Top>
-                          <Right>0</Right>
-                          <Bottom>0</Bottom>
-                        </Padding>
-                      </Font>
-                      <OnTextColor>#FF40B329</OnTextColor>
-                      <BackgroundColor>#FF000000</BackgroundColor>
-                      <TextTest>0000</TextTest>
-                      <ParserDictionary />
-                      <UseBackground>False</UseBackground>
-                      <UseParserDictionary>False</UseParserDictionary>
-                      <ScalingMode>Height</ScalingMode>
-                      <Location>235,41</Location>
-                      <Size>77,38</Size>
-                      <Hidden>False</Hidden>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.RockerSwitch" Name="Blank - Dark" SnapTarget="True" Locked="False">
-                      <Location>80,140</Location>
-                      <Size>38,61</Size>
-                      <Hidden>False</Hidden>
-                      <SwitchType>MomOnMom</SwitchType>
-                      <Orientation>Vertical</Orientation>
-                      <ClickType>Touch</ClickType>
-                      <PositionOneImage>MadKreator37\C130J\Buttons_Switches_Knobs\Vert_Rocker_Up.png</PositionOneImage>
-                      <PositionTwoImage>MadKreator37\C130J\Buttons_Switches_Knobs\Vert_Rocker_Center.png</PositionTwoImage>
-                      <PositionThreeImage>MadKreator37\C130J\Buttons_Switches_Knobs\Vert_Rocker_Dn.png</PositionThreeImage>
-                      <DefaultPosition>Two</DefaultPosition>
-                      <Children />
-                    </Control>
-                  </Children>
-                </Control>
-              </Children>
-            </Control>
             <Control TypeIdentifier="Helios.C130J.AMU.PILOT" Name="AMU (Pilot)" SnapTarget="True" Locked="False">
               <Location>682,0</Location>
               <Size>728,254</Size>
@@ -4386,6 +3897,495 @@
                   <EmbeddedViewportName />
                   <GlassReflectionOpacity>0.3</GlassReflectionOpacity>
                   <Children />
+                </Control>
+              </Children>
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Ramp Panel" SnapTarget="True" Locked="False">
+              <Location>581,255</Location>
+              <Size>476,688</Size>
+              <Hidden>True</Hidden>
+              <Background>
+                <Color>#DA000000</Color>
+              </Background>
+              <Border>
+                <TopLeftCorner />
+                <TopBorder>{Helios}/Images/Panels/panel-top.png</TopBorder>
+                <TopRightCorner />
+                <RightBorder>{Helios}/Images/Panels/panel-left.png</RightBorder>
+                <BottomRightCorner />
+                <BottomBorder>{Helios}/Images/Panels/panel-top.png</BottomBorder>
+                <BottomLeftCorner />
+                <LeftBorder>{Helios}/Images/Panels/panel-left.png</LeftBorder>
+              </Border>
+              <Interaction>
+                <AllowInteractionFull>False</AllowInteractionFull>
+                <AllowInteractionNone>True</AllowInteractionNone>
+                <AllowInteractionLegacy>False</AllowInteractionLegacy>
+              </Interaction>
+              <Children>
+                <Control TypeIdentifier="Helios.Panel" Name="Aerial Delivery Panel 2" SnapTarget="True" Locked="False">
+                  <Location>41,347</Location>
+                  <Size>392,332</Size>
+                  <Hidden>False</Hidden>
+                  <Background />
+                  <Interaction>
+                    <AllowInteractionFull>False</AllowInteractionFull>
+                    <AllowInteractionNone>True</AllowInteractionNone>
+                    <AllowInteractionLegacy>False</AllowInteractionLegacy>
+                  </Interaction>
+                  <Children>
+                    <Control TypeIdentifier="Helios.Base.Image" Name="Image 4" SnapTarget="False" Locked="True">
+                      <Image>MadKreator37\C130J\Bezels_And_Faces\Aerial_Delivery_Panel.png</Image>
+                      <Alignment>Stretched</Alignment>
+                      <CornerRadius>0</CornerRadius>
+                      <Location>4,5</Location>
+                      <Size>385,324</Size>
+                      <Hidden>False</Hidden>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.PushButton" Name="Push Button" SnapTarget="True" Locked="False">
+                      <Location>146,82</Location>
+                      <Size>45,45</Size>
+                      <Hidden>False</Hidden>
+                      <Type>Momentary</Type>
+                      <Image>MadKreator37\C130J\Buttons_Switches_Knobs\Generic_Blank_Button_Norm.png</Image>
+                      <PushedImage>MadKreator37\C130J\Buttons_Switches_Knobs\Generic_Blank_Button_Pressed.png</PushedImage>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.PushButton" Name="Push Button 1" SnapTarget="True" Locked="False">
+                      <Location>212,82</Location>
+                      <Size>45,45</Size>
+                      <Hidden>False</Hidden>
+                      <Type>Momentary</Type>
+                      <Image>MadKreator37\C130J\Buttons_Switches_Knobs\Generic_Blank_Button_Norm.png</Image>
+                      <PushedImage>MadKreator37\C130J\Buttons_Switches_Knobs\Generic_Blank_Button_Pressed.png</PushedImage>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.Indicator" Name="Green Light 1" SnapTarget="True" Locked="False">
+                      <OnImage>MadKreator37\C130J\Indicators\Cargo _Bay_Caution.png</OnImage>
+                      <OffImage>MadKreator37\C130J\Transparent_Image.png</OffImage>
+                      <Font>
+                        <FontFamily>Franklin Gothic</FontFamily>
+                        <FontStyle>Normal</FontStyle>
+                        <FontWeight>Normal</FontWeight>
+                        <FontSize>7.55555555555556</FontSize>
+                        <HorizontalAlignment>Center</HorizontalAlignment>
+                        <VerticalAlignment>Center</VerticalAlignment>
+                        <Padding>
+                          <Left>0</Left>
+                          <Top>0</Top>
+                          <Right>0</Right>
+                          <Bottom>0</Bottom>
+                        </Padding>
+                      </Font>
+                      <Text />
+                      <OnTextColor>#FFB3A229</OnTextColor>
+                      <OffTextColor>#FF1C1C1C</OffTextColor>
+                      <ScalingMode>Height</ScalingMode>
+                      <Interaction>
+                        <AllowInteraction>True</AllowInteraction>
+                      </Interaction>
+                      <Location>151,87</Location>
+                      <Size>34,34</Size>
+                      <Hidden>False</Hidden>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.Indicator" Name="Green Light 1 1" SnapTarget="True" Locked="False">
+                      <OnImage>MadKreator37\C130J\Indicators\Cargo _Bay_Jump.png</OnImage>
+                      <OffImage>MadKreator37\C130J\Transparent_Image.png</OffImage>
+                      <Font>
+                        <FontFamily>Franklin Gothic</FontFamily>
+                        <FontStyle>Normal</FontStyle>
+                        <FontWeight>Normal</FontWeight>
+                        <FontSize>7.55555555555556</FontSize>
+                        <HorizontalAlignment>Center</HorizontalAlignment>
+                        <VerticalAlignment>Center</VerticalAlignment>
+                        <Padding>
+                          <Left>0</Left>
+                          <Top>0</Top>
+                          <Right>0</Right>
+                          <Bottom>0</Bottom>
+                        </Padding>
+                      </Font>
+                      <Text />
+                      <OnTextColor>#FFB3A229</OnTextColor>
+                      <OffTextColor>#FF1C1C1C</OffTextColor>
+                      <ScalingMode>Height</ScalingMode>
+                      <Interaction>
+                        <AllowInteraction>True</AllowInteraction>
+                      </Interaction>
+                      <Location>217,87</Location>
+                      <Size>34,34</Size>
+                      <Hidden>False</Hidden>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Three Way Toggle Switch" SnapTarget="True" Locked="False">
+                      <Location>75,102</Location>
+                      <Size>34,66</Size>
+                      <Hidden>False</Hidden>
+                      <SwitchType>OnOnOn</SwitchType>
+                      <Orientation>Vertical</Orientation>
+                      <ClickType>Swipe</ClickType>
+                      <PositionOneImage>MadKreator37\C130J\Buttons_Switches_Knobs\Switch_2_Up.png</PositionOneImage>
+                      <PositionTwoImage>MadKreator37\C130J\Buttons_Switches_Knobs\Switch_2_Center.png</PositionTwoImage>
+                      <PositionThreeImage>MadKreator37\C130J\Buttons_Switches_Knobs\Switch_2_Dn.png</PositionThreeImage>
+                      <DefaultPosition>Two</DefaultPosition>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Toggle Switch" SnapTarget="True" Locked="False">
+                      <Location>75,226</Location>
+                      <Size>34,66</Size>
+                      <Hidden>False</Hidden>
+                      <SwitchType>OnOn</SwitchType>
+                      <Orientation>Vertical</Orientation>
+                      <ClickType>Swipe</ClickType>
+                      <PositionOneImage>MadKreator37\C130J\Buttons_Switches_Knobs\Switch_3_Up.png</PositionOneImage>
+                      <PositionTwoImage>MadKreator37\C130J\Buttons_Switches_Knobs\Switch_3_Dn.png</PositionTwoImage>
+                      <DefaultPosition>Two</DefaultPosition>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.PushButton" Name="Tactile Round - Light" SnapTarget="True" Locked="False">
+                      <Location>292,103</Location>
+                      <Size>30,30</Size>
+                      <Hidden>False</Hidden>
+                      <Type>Momentary</Type>
+                      <Image>MadKreator37\C130J\Buttons_Switches_Knobs\Chute_Button_Norm.png</Image>
+                      <PushedImage>MadKreator37\C130J\Buttons_Switches_Knobs\Chute_Button_Pressed.png</PushedImage>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.GuardedSwitch" Name="chute release guard" SnapTarget="True" Locked="False">
+                      <Location>271,71</Location>
+                      <Size>72,91</Size>
+                      <Hidden>False</Hidden>
+                      <SwitchType>OnOn</SwitchType>
+                      <Orientation>Vertical</Orientation>
+                      <ClickType>Swipe</ClickType>
+                      <GuardUp>
+                        <PositionOneImage>MadKreator37\C130J\Buttons_Switches_Knobs\Chute_Release_Cover_Open.png</PositionOneImage>
+                        <PositionTwoImage>MadKreator37\C130J\Buttons_Switches_Knobs\Chute_Release_Cover_Closed.png</PositionTwoImage>
+                      </GuardUp>
+                      <GuardDown>
+                        <PositionOneImage>MadKreator37\C130J\Buttons_Switches_Knobs\Chute_Release_Cover_Open.png</PositionOneImage>
+                        <PositionTwoImage>MadKreator37\C130J\Buttons_Switches_Knobs\Chute_Release_Cover_Closed.png</PositionTwoImage>
+                      </GuardDown>
+                      <DefaultPosition>Two</DefaultPosition>
+                      <DefaultGuardPosition>Down</DefaultGuardPosition>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Three Way Toggle Switch 1" SnapTarget="True" Locked="False">
+                      <Location>157,228</Location>
+                      <Size>34,66</Size>
+                      <Hidden>False</Hidden>
+                      <SwitchType>OnOnOn</SwitchType>
+                      <Orientation>Vertical</Orientation>
+                      <ClickType>Swipe</ClickType>
+                      <PositionOneImage>MadKreator37\C130J\Buttons_Switches_Knobs\Switch_2_Up.png</PositionOneImage>
+                      <PositionTwoImage>MadKreator37\C130J\Buttons_Switches_Knobs\Switch_2_Center.png</PositionTwoImage>
+                      <PositionThreeImage>MadKreator37\C130J\Buttons_Switches_Knobs\Switch_2_Dn.png</PositionThreeImage>
+                      <DefaultPosition>Two</DefaultPosition>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.Image" Name="Image" SnapTarget="False" Locked="False">
+                      <Image>MadKreator37\C130J\Buttons_Switches_Knobs\Orange_Sw_Base.png</Image>
+                      <Alignment>Stretched</Alignment>
+                      <CornerRadius>0</CornerRadius>
+                      <Location>290,247</Location>
+                      <Size>33,33</Size>
+                      <Hidden>False</Hidden>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Toggle Switch 1 1" SnapTarget="True" Locked="False">
+                      <Location>290,229</Location>
+                      <Size>34,66</Size>
+                      <Hidden>False</Hidden>
+                      <SwitchType>OnOn</SwitchType>
+                      <Orientation>Vertical</Orientation>
+                      <ClickType>Swipe</ClickType>
+                      <PositionOneImage>MadKreator37\C130J\Buttons_Switches_Knobs\Switch_1_Up.png</PositionOneImage>
+                      <PositionTwoImage>MadKreator37\C130J\Buttons_Switches_Knobs\Switch_1_Dn.png</PositionTwoImage>
+                      <DefaultPosition>Two</DefaultPosition>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.GuardedSwitch" Name="alarm guard" SnapTarget="True" Locked="False">
+                      <Location>285,183</Location>
+                      <Size>44,119</Size>
+                      <Hidden>False</Hidden>
+                      <SwitchType>OnOn</SwitchType>
+                      <Orientation>Vertical</Orientation>
+                      <ClickType>Swipe</ClickType>
+                      <GuardUp>
+                        <PositionOneImage>MadKreator37\C130J\Buttons_Switches_Knobs\Guard_1_Up.png</PositionOneImage>
+                        <PositionTwoImage>MadKreator37\C130J\Buttons_Switches_Knobs\Guard_1_Dn.png</PositionTwoImage>
+                      </GuardUp>
+                      <GuardDown>
+                        <PositionOneImage>MadKreator37\C130J\Buttons_Switches_Knobs\Guard_1_Up.png</PositionOneImage>
+                        <PositionTwoImage>MadKreator37\C130J\Buttons_Switches_Knobs\Guard_1_Dn.png</PositionTwoImage>
+                      </GuardDown>
+                      <DefaultPosition>Two</DefaultPosition>
+                      <DefaultGuardPosition>Down</DefaultGuardPosition>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome" SnapTarget="False" Locked="False">
+                      <Location>20,65</Location>
+                      <Size>20,20</Size>
+                      <Hidden>False</Hidden>
+                      <EffectsExclusion>True</EffectsExclusion>
+                      <MetronomeEnabled>False</MetronomeEnabled>
+                      <TickInterval>5</TickInterval>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.TextDisplay" Name="TextDisplay 1" SnapTarget="True" Locked="False">
+                      <Font>
+                        <FontFamily>Helios Virtual Cockpit F/A-18C Hornet IFEI</FontFamily>
+                        <FontStyle>Normal</FontStyle>
+                        <FontWeight>Normal</FontWeight>
+                        <FontSize>17.3333333333333</FontSize>
+                        <HorizontalAlignment>Center</HorizontalAlignment>
+                        <VerticalAlignment>Center</VerticalAlignment>
+                        <Padding>
+                          <Left>0</Left>
+                          <Top>0</Top>
+                          <Right>0</Right>
+                          <Bottom>0</Bottom>
+                        </Padding>
+                      </Font>
+                      <OnTextColor>#FF35DC93</OnTextColor>
+                      <BackgroundColor>#FF000000</BackgroundColor>
+                      <TextTest>CLOSED</TextTest>
+                      <ParserDictionary />
+                      <UseBackground>False</UseBackground>
+                      <UseParserDictionary>False</UseParserDictionary>
+                      <ScalingMode>Height</ScalingMode>
+                      <Location>57,52</Location>
+                      <Size>70,26</Size>
+                      <Hidden>False</Hidden>
+                      <Children />
+                    </Control>
+                  </Children>
+                </Control>
+                <Control TypeIdentifier="Helios.Panel" Name="Pressurization Panel2" SnapTarget="True" Locked="False">
+                  <Location>64,7</Location>
+                  <Size>347,340</Size>
+                  <Hidden>False</Hidden>
+                  <Background />
+                  <Interaction>
+                    <AllowInteractionFull>False</AllowInteractionFull>
+                    <AllowInteractionNone>True</AllowInteractionNone>
+                    <AllowInteractionLegacy>False</AllowInteractionLegacy>
+                  </Interaction>
+                  <Children>
+                    <Control TypeIdentifier="Helios.Base.Image" Name="Image 5" SnapTarget="False" Locked="True">
+                      <Image>MadKreator37\C130J\Bezels_And_Faces\Pressurization_Panel.png</Image>
+                      <Alignment>Stretched</Alignment>
+                      <CornerRadius>0</CornerRadius>
+                      <Location>1,1</Location>
+                      <Size>346,337</Size>
+                      <Hidden>False</Hidden>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.Image" Name="Image" SnapTarget="False" Locked="False">
+                      <Image>MadKreator37\C130J\Buttons_Switches_Knobs\Orange_Sw_Base_2.png</Image>
+                      <Alignment>Stretched</Alignment>
+                      <CornerRadius>0</CornerRadius>
+                      <Location>248,157</Location>
+                      <Size>35,30</Size>
+                      <Hidden>False</Hidden>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Toggle Switch 1" SnapTarget="True" Locked="False">
+                      <Location>252,147</Location>
+                      <Size>26,51</Size>
+                      <Hidden>False</Hidden>
+                      <SwitchType>OnOn</SwitchType>
+                      <Orientation>Vertical</Orientation>
+                      <ClickType>Swipe</ClickType>
+                      <PositionOneImage>MadKreator37\C130J\Buttons_Switches_Knobs\Switch_1_Up.png</PositionOneImage>
+                      <PositionTwoImage>MadKreator37\C130J\Buttons_Switches_Knobs\Switch_1_Dn.png</PositionTwoImage>
+                      <DefaultPosition>Two</DefaultPosition>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.GuardedSwitch" Name="Guard Empty" SnapTarget="True" Locked="False">
+                      <Location>243,97</Location>
+                      <Size>42,114</Size>
+                      <Hidden>False</Hidden>
+                      <SwitchType>OnOn</SwitchType>
+                      <Orientation>Vertical</Orientation>
+                      <ClickType>Swipe</ClickType>
+                      <GuardUp>
+                        <PositionOneImage>MadKreator37\C130J\Buttons_Switches_Knobs\Guard_1_Up.png</PositionOneImage>
+                        <PositionTwoImage>MadKreator37\C130J\Buttons_Switches_Knobs\Guard_1_Dn.png</PositionTwoImage>
+                      </GuardUp>
+                      <GuardDown>
+                        <PositionOneImage>MadKreator37\C130J\Buttons_Switches_Knobs\Guard_1_Up.png</PositionOneImage>
+                        <PositionTwoImage>MadKreator37\C130J\Buttons_Switches_Knobs\Guard_1_Dn.png</PositionTwoImage>
+                      </GuardDown>
+                      <DefaultPosition>Two</DefaultPosition>
+                      <DefaultGuardPosition>Down</DefaultGuardPosition>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="Rotary - Knob 1" SnapTarget="True" Locked="False">
+                      <Location>55,239</Location>
+                      <Size>75,75</Size>
+                      <Hidden>False</Hidden>
+                      <KnobImage>MadKreator37\C130J\Buttons_Switches_Knobs\Ref_Select_Knob.png</KnobImage>
+                      <Positions>
+                        <Position Name="0" Rotation="269.67" />
+                        <Position Name="1" Rotation="314.38" />
+                        <Position Name="2" Rotation="0.00" />
+                        <Position Name="3" Rotation="42.54" />
+                        <Position Name="4" Rotation="90.58" />
+                      </Positions>
+                      <DefaultPosition>1</DefaultPosition>
+                      <ClickType>
+                        <Type>Touch</Type>
+                      </ClickType>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Potentiometer" SnapTarget="True" Locked="False">
+                      <Location>136,128</Location>
+                      <Size>85,85</Size>
+                      <Hidden>False</Hidden>
+                      <KnobImage>MadKreator37\C130J\Buttons_Switches_Knobs\Pressure_Knob.png</KnobImage>
+                      <InitialValue>0</InitialValue>
+                      <StepValue>0.03</StepValue>
+                      <MaxValue>1</MaxValue>
+                      <MinValue>0</MinValue>
+                      <InitialRotation>213.791208791209</InitialRotation>
+                      <RotationTravel>286.483516483516</RotationTravel>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="Rotary Encoder" SnapTarget="True" Locked="False">
+                      <Location>203,284</Location>
+                      <Size>47,47</Size>
+                      <Hidden>False</Hidden>
+                      <KnobImage>MadKreator37\C130J\Buttons_Switches_Knobs\Hud_Knob Norm.png</KnobImage>
+                      <RotationStep>5</RotationStep>
+                      <StepValue>0.1</StepValue>
+                      <InitialRotation>0</InitialRotation>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.TextDisplay" Name="TextDisplay" SnapTarget="True" Locked="False">
+                      <Font>
+                        <FontFamily>Helios Virtual Cockpit A-10C_Digital_Clock</FontFamily>
+                        <FontStyle>Normal</FontStyle>
+                        <FontWeight>Normal</FontWeight>
+                        <FontSize>23.2222222222222</FontSize>
+                        <HorizontalAlignment>Center</HorizontalAlignment>
+                        <VerticalAlignment>Center</VerticalAlignment>
+                        <Padding>
+                          <Left>0</Left>
+                          <Top>0</Top>
+                          <Right>0</Right>
+                          <Bottom>0</Bottom>
+                        </Padding>
+                      </Font>
+                      <OnTextColor>#FF40B329</OnTextColor>
+                      <BackgroundColor>#FF000000</BackgroundColor>
+                      <TextTest>0000</TextTest>
+                      <ParserDictionary />
+                      <UseBackground>False</UseBackground>
+                      <UseParserDictionary>False</UseParserDictionary>
+                      <ScalingMode>Height</ScalingMode>
+                      <Location>176,246</Location>
+                      <Size>103,38</Size>
+                      <Hidden>False</Hidden>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.TextDisplay" Name="TextDisplay 1" SnapTarget="True" Locked="False">
+                      <Font>
+                        <FontFamily>Helios Virtual Cockpit A-10C_Digital_Clock</FontFamily>
+                        <FontStyle>Normal</FontStyle>
+                        <FontWeight>Normal</FontWeight>
+                        <FontSize>23.2222222222222</FontSize>
+                        <HorizontalAlignment>Center</HorizontalAlignment>
+                        <VerticalAlignment>Center</VerticalAlignment>
+                        <Padding>
+                          <Left>0</Left>
+                          <Top>0</Top>
+                          <Right>0</Right>
+                          <Bottom>0</Bottom>
+                        </Padding>
+                      </Font>
+                      <OnTextColor>#FF40B329</OnTextColor>
+                      <BackgroundColor>#FF000000</BackgroundColor>
+                      <TextTest>000</TextTest>
+                      <ParserDictionary />
+                      <UseBackground>False</UseBackground>
+                      <UseParserDictionary>False</UseParserDictionary>
+                      <ScalingMode>Height</ScalingMode>
+                      <Location>32,41</Location>
+                      <Size>103,38</Size>
+                      <Hidden>False</Hidden>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.TextDisplay" Name="TextDisplay 1 1" SnapTarget="True" Locked="False">
+                      <Font>
+                        <FontFamily>Helios Virtual Cockpit A-10C_Digital_Clock</FontFamily>
+                        <FontStyle>Normal</FontStyle>
+                        <FontWeight>Normal</FontWeight>
+                        <FontSize>23.2222222222222</FontSize>
+                        <HorizontalAlignment>Center</HorizontalAlignment>
+                        <VerticalAlignment>Center</VerticalAlignment>
+                        <Padding>
+                          <Left>0</Left>
+                          <Top>0</Top>
+                          <Right>0</Right>
+                          <Bottom>0</Bottom>
+                        </Padding>
+                      </Font>
+                      <OnTextColor>#FF40B329</OnTextColor>
+                      <BackgroundColor>#FF000000</BackgroundColor>
+                      <TextTest>000</TextTest>
+                      <ParserDictionary />
+                      <UseBackground>False</UseBackground>
+                      <UseParserDictionary>False</UseParserDictionary>
+                      <ScalingMode>Height</ScalingMode>
+                      <Location>134,41</Location>
+                      <Size>103,38</Size>
+                      <Hidden>False</Hidden>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.TextDisplay" Name="TextDisplay 1 1 1" SnapTarget="True" Locked="False">
+                      <Font>
+                        <FontFamily>Helios Virtual Cockpit A-10C_Digital_Clock</FontFamily>
+                        <FontStyle>Normal</FontStyle>
+                        <FontWeight>Normal</FontWeight>
+                        <FontSize>23.2222222222222</FontSize>
+                        <HorizontalAlignment>Center</HorizontalAlignment>
+                        <VerticalAlignment>Center</VerticalAlignment>
+                        <Padding>
+                          <Left>0</Left>
+                          <Top>0</Top>
+                          <Right>0</Right>
+                          <Bottom>0</Bottom>
+                        </Padding>
+                      </Font>
+                      <OnTextColor>#FF40B329</OnTextColor>
+                      <BackgroundColor>#FF000000</BackgroundColor>
+                      <TextTest>0000</TextTest>
+                      <ParserDictionary />
+                      <UseBackground>False</UseBackground>
+                      <UseParserDictionary>False</UseParserDictionary>
+                      <ScalingMode>Height</ScalingMode>
+                      <Location>235,41</Location>
+                      <Size>77,38</Size>
+                      <Hidden>False</Hidden>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.RockerSwitch" Name="Blank - Dark" SnapTarget="True" Locked="False">
+                      <Location>80,140</Location>
+                      <Size>38,61</Size>
+                      <Hidden>False</Hidden>
+                      <SwitchType>MomOnMom</SwitchType>
+                      <Orientation>Vertical</Orientation>
+                      <ClickType>Touch</ClickType>
+                      <PositionOneImage>MadKreator37\C130J\Buttons_Switches_Knobs\Vert_Rocker_Up.png</PositionOneImage>
+                      <PositionTwoImage>MadKreator37\C130J\Buttons_Switches_Knobs\Vert_Rocker_Center.png</PositionTwoImage>
+                      <PositionThreeImage>MadKreator37\C130J\Buttons_Switches_Knobs\Vert_Rocker_Dn.png</PositionThreeImage>
+                      <DefaultPosition>Two</DefaultPosition>
+                      <Children />
+                    </Control>
+                  </Children>
                 </Control>
               </Children>
             </Control>
@@ -15590,16 +15590,6 @@ end</LuaScript>
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Pilot Panel.Drop button;Helios.Base.PushButton;Drop button" Name="closed" />
-      <Action Target="Visual;Monitor 1.Pilot Panel.CNI Panel;Helios.Panel;CNI Panel" Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Pilot Panel.Drop button;Helios.Base.PushButton;Drop button" Name="closed" />
-      <Action Target="Visual;Monitor 1.Pilot Panel.CNI Rocker;Helios.Base.ToggleSwitch;CNI Rocker" Name="set.position" />
-      <StaticValue>2</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.Pilot Panel.park brake switch;Helios.Base.ToggleSwitch;park brake switch" Name="position.changed" />
       <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.set.Parking Brake Handle" />
       <TriggerValue />
@@ -15812,111 +15802,6 @@ end</LuaScript>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.Pilot Panel.Oxy Mon Misc Panel.Oxygen Panel.Toggle Switch 1;Helios.Base.ToggleSwitch;Toggle Switch 1" Name="position.changed" />
       <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Environment.set.Pilot Oxygen Supply Lever" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Push Button;Helios.Base.PushButton;Push Button" Name="closed" />
-      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.push.Airdrop Caution Light Control Button" />
-      <StaticValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Push Button;Helios.Base.PushButton;Push Button" Name="open" />
-      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.release.Airdrop Caution Light Control Button" />
-      <StaticValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Push Button 1;Helios.Base.PushButton;Push Button 1" Name="closed" />
-      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.push.Airdrop Jump Light Control Button" />
-      <StaticValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Push Button 1;Helios.Base.PushButton;Push Button 1" Name="open" />
-      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.release.Airdrop Jump Light Control Button" />
-      <StaticValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Three Way Toggle Switch;Helios.Base.ThreeWayToggleSwitch;Three Way Toggle Switch" Name="position.changed" />
-      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.set.Ramp/Door Control Switch" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Toggle Switch;Helios.Base.ToggleSwitch;Toggle Switch" Name="position.changed" />
-      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.set.Air Deflector Control Switch" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Tactile Round - Light;Helios.Base.PushButton;Tactile Round - Light" Name="closed" />
-      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.push.Chute Release Button" />
-      <StaticValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Tactile Round - Light;Helios.Base.PushButton;Tactile Round - Light" Name="open" />
-      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.release.Chute Release Button" />
-      <StaticValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.chute release guard;Helios.Base.GuardedSwitch;chute release guard" Name="guard position.changed" />
-      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.set.Chute Release Button Cover" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Three Way Toggle Switch 1;Helios.Base.ThreeWayToggleSwitch;Three Way Toggle Switch 1" Name="position.changed" />
-      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.set.Computer Drop Switch" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Toggle Switch 1 1;Helios.Base.ToggleSwitch;Toggle Switch 1 1" Name="position.changed" />
-      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.set.Cargo Bay Alarm Switch" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.alarm guard;Helios.Base.GuardedSwitch;alarm guard" Name="guard position.changed" />
-      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.set.Cargo Bay Alarm Switch Guard" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Metronome;Helios.Special.Metronome;Metronome" Name="Metronome Tick" />
-      <Action Target="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Metronome;Helios.Special.Metronome;Metronome" Name="Metronome.set.Enable" />
-      <StaticValue>false</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Metronome;Helios.Special.Metronome;Metronome" Name="Metronome Tick" />
-      <Action Target="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.TextDisplay 1;Helios.Base.TextDisplay;TextDisplay 1" Name="set.TextDisplay" />
-      <StaticValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Pressurization Panel2.Toggle Switch 1;Helios.Base.ToggleSwitch;Toggle Switch 1" Name="position.changed" />
-      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Environment.set.Emergency Depressurize Switch" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Pressurization Panel2.Guard Empty;Helios.Base.GuardedSwitch;Guard Empty" Name="guard position.changed" />
-      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Environment.set.Emergency Depressurize Switch Guard" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Pressurization Panel2.Rotary - Knob 1;Helios.Base.RotarySwitch;Rotary - Knob 1" Name="position.changed" />
-      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Environment.set.Pressurization Mode Switch" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Pressurization Panel2.Potentiometer;Helios.Base.Potentiometer;Potentiometer" Name="value.changed" />
-      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Environment.set.Pressurization Rate Control Knob" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Pressurization Panel2.Rotary Encoder;Helios.Base.RotaryEncoder;Rotary Encoder" Name="encoder.incremented" />
-      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Environment.increment.Landing/Constant Altitude Selector" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Pressurization Panel2.Rotary Encoder;Helios.Base.RotaryEncoder;Rotary Encoder" Name="encoder.decremented" />
-      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Environment.decrement.Landing/Constant Altitude Selector" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Pressurization Panel2.Blank - Dark;Helios.Base.RockerSwitch;Blank - Dark" Name="position.changed" />
-      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Environment.set.Outflow Valve Close" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -17112,6 +16997,111 @@ end</LuaScript>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.Pilot Panel.CNI Panel.CNI (Pilot).MU Brightness;Helios.Base.RockerSwitch;MU Brightness" Name="CNI Pilot_MU Brightness.position.changed" />
       <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="CNI Pilot.set.MU Brightness" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Push Button;Helios.Base.PushButton;Push Button" Name="closed" />
+      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.push.Airdrop Caution Light Control Button" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Push Button;Helios.Base.PushButton;Push Button" Name="open" />
+      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.release.Airdrop Caution Light Control Button" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Push Button 1;Helios.Base.PushButton;Push Button 1" Name="closed" />
+      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.push.Airdrop Jump Light Control Button" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Push Button 1;Helios.Base.PushButton;Push Button 1" Name="open" />
+      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.release.Airdrop Jump Light Control Button" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Three Way Toggle Switch;Helios.Base.ThreeWayToggleSwitch;Three Way Toggle Switch" Name="position.changed" />
+      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.set.Ramp/Door Control Switch" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Toggle Switch;Helios.Base.ToggleSwitch;Toggle Switch" Name="position.changed" />
+      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.set.Air Deflector Control Switch" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Tactile Round - Light;Helios.Base.PushButton;Tactile Round - Light" Name="closed" />
+      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.push.Chute Release Button" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Tactile Round - Light;Helios.Base.PushButton;Tactile Round - Light" Name="open" />
+      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.release.Chute Release Button" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.chute release guard;Helios.Base.GuardedSwitch;chute release guard" Name="guard position.changed" />
+      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.set.Chute Release Button Cover" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Three Way Toggle Switch 1;Helios.Base.ThreeWayToggleSwitch;Three Way Toggle Switch 1" Name="position.changed" />
+      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.set.Computer Drop Switch" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Toggle Switch 1 1;Helios.Base.ToggleSwitch;Toggle Switch 1 1" Name="position.changed" />
+      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.set.Cargo Bay Alarm Switch" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.alarm guard;Helios.Base.GuardedSwitch;alarm guard" Name="guard position.changed" />
+      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Mech Interface.set.Cargo Bay Alarm Switch Guard" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Metronome;Helios.Special.Metronome;Metronome" Name="Metronome Tick" />
+      <Action Target="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Metronome;Helios.Special.Metronome;Metronome" Name="Metronome.set.Enable" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.Metronome;Helios.Special.Metronome;Metronome" Name="Metronome Tick" />
+      <Action Target="Visual;Monitor 1.Pilot Panel.Ramp Panel.Aerial Delivery Panel 2.TextDisplay 1;Helios.Base.TextDisplay;TextDisplay 1" Name="set.TextDisplay" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Pressurization Panel2.Toggle Switch 1;Helios.Base.ToggleSwitch;Toggle Switch 1" Name="position.changed" />
+      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Environment.set.Emergency Depressurize Switch" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Pressurization Panel2.Guard Empty;Helios.Base.GuardedSwitch;Guard Empty" Name="guard position.changed" />
+      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Environment.set.Emergency Depressurize Switch Guard" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Pressurization Panel2.Rotary - Knob 1;Helios.Base.RotarySwitch;Rotary - Knob 1" Name="position.changed" />
+      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Environment.set.Pressurization Mode Switch" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Pressurization Panel2.Potentiometer;Helios.Base.Potentiometer;Potentiometer" Name="value.changed" />
+      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Environment.set.Pressurization Rate Control Knob" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Pressurization Panel2.Rotary Encoder;Helios.Base.RotaryEncoder;Rotary Encoder" Name="encoder.incremented" />
+      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Environment.increment.Landing/Constant Altitude Selector" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Pressurization Panel2.Rotary Encoder;Helios.Base.RotaryEncoder;Rotary Encoder" Name="encoder.decremented" />
+      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Environment.decrement.Landing/Constant Altitude Selector" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Pilot Panel.Ramp Panel.Pressurization Panel2.Blank - Dark;Helios.Base.RockerSwitch;Blank - Dark" Name="position.changed" />
+      <Action Target="Interface;;Helios.C130J;DCS C-130J Hercules (ASC)" Name="Environment.set.Outflow Valve Close" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
